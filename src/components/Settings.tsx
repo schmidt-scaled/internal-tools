@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Plus, Edit, Trash2, Users, Server, TestTube } from 'lucide-react';
+import { Plus, Edit, Trash2, Users, Server, TestTube, X } from 'lucide-react';
 import { useUsers, useEnvironments, useTestTypes } from '../hooks/useSupabaseData';
 import { supabase } from '../lib/supabase';
 import toast from 'react-hot-toast';
