@@ -9,6 +9,8 @@ import { Analytics } from './components/Analytics';
 import { Settings } from './components/Settings';
 
 function App() {
+  console.log('App component rendering');
+  
   return (
     <Router>
       <div className="min-h-screen bg-gray-50">
@@ -26,5 +28,7 @@ function App() {
     </Router>
   );
 }
+
+export default App;
 
 export default App;
